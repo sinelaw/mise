@@ -1,5 +1,53 @@
 # Changelog
 
+## [2026.6.16](https://github.com/jdx/mise/compare/v2026.6.14..v2026.6.16) - 2026-06-30
+
+### 🚀 Features
+
+- **(bootstrap)** prune unmanaged brew formulae by @jdx in [#10618](https://github.com/jdx/mise/pull/10618)
+
+### 🐛 Bug Fixes
+
+- **(brew-cask)** handle raw binaries, $APPDIR paths, and app bundle copying by @arthurh4 in [#10626](https://github.com/jdx/mise/pull/10626)
+- **(hooks)** set MISE_INSTALLED_TOOLS to [] on no-op install (keep running postinstall) by @JamBalaya56562 in [#10615](https://github.com/jdx/mise/pull/10615)
+- **(install)** respect lockfile backend during locked installs by @risu729 in [#10599](https://github.com/jdx/mise/pull/10599)
+- **(install)** suggest source install for unsupported arches by @risu729 in [#10627](https://github.com/jdx/mise/pull/10627)
+- **(oci)** resolve host install symlinks and symlinked paths during `PATH` rebasing by @salim-b in [#10624](https://github.com/jdx/mise/pull/10624)
+- **(watch)** forward --ignore, --ignore-file, and --print-events to watchexec by @JamBalaya56562 in [#10629](https://github.com/jdx/mise/pull/10629)
+- stop forcing no-yjit ruby on older glibc by @jdx in [#10620](https://github.com/jdx/mise/pull/10620)
+
+### 📦️ Dependency Updates
+
+- update ghcr.io/jdx/mise:alpine docker digest to 7cdf593 by @renovate[bot] in [#10632](https://github.com/jdx/mise/pull/10632)
+- update ghcr.io/jdx/mise:deb docker digest to 7f8a538 by @renovate[bot] in [#10633](https://github.com/jdx/mise/pull/10633)
+- update rattler by @renovate[bot] in [#10637](https://github.com/jdx/mise/pull/10637)
+- update ghcr.io/jdx/mise:rpm docker digest to 4d4b300 by @renovate[bot] in [#10634](https://github.com/jdx/mise/pull/10634)
+- update rust-lang/crates-io-auth-action action to v1.0.5 by @renovate[bot] in [#10636](https://github.com/jdx/mise/pull/10636)
+- update rust docker digest to 6df234c by @renovate[bot] in [#10635](https://github.com/jdx/mise/pull/10635)
+- update rust crate itertools to 0.15 by @renovate[bot] in [#10639](https://github.com/jdx/mise/pull/10639)
+- update actions/checkout action to v7 by @renovate[bot] in [#10641](https://github.com/jdx/mise/pull/10641)
+- update dependency @types/node to v26 by @renovate[bot] in [#10642](https://github.com/jdx/mise/pull/10642)
+- update ubuntu docker tag to resolute-20260610 by @renovate[bot] in [#10649](https://github.com/jdx/mise/pull/10649)
+- update actions/cache digest to caa2961 by @renovate[bot] in [#10652](https://github.com/jdx/mise/pull/10652)
+
+### New Contributors
+
+- @arthurh4 made their first contribution in [#10626](https://github.com/jdx/mise/pull/10626)
+
+### 📦 Aqua Registry Updates
+
+#### New Packages (3)
+
+- [`aaif-goose/goose`](https://github.com/aaif-goose/goose)
+- [`mxschmitt/playwright-go`](https://github.com/mxschmitt/playwright-go)
+- [`twitchdev/twitch-cli`](https://github.com/twitchdev/twitch-cli)
+
+#### Updated Packages (3)
+
+- [`mikefarah/yq`](https://github.com/mikefarah/yq)
+- [`runs-on/cli`](https://github.com/runs-on/cli)
+- [`tailwindlabs/tailwindcss`](https://github.com/tailwindlabs/tailwindcss)
+
 ## [2026.6.15](https://github.com/jdx/mise/compare/v2026.6.14..v2026.6.15) - 2026-06-26
 
 ### 🚀 Features
